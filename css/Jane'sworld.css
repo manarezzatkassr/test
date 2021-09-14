@@ -128,8 +128,10 @@ header .container button {
 /********Left Side************************************************/
 .left-side {
     float: left;
-    width: 70%;
+    width: 65%;
     box-sizing: border-box;
+    margin: 15px;
+    padding: 15px;
 }
 .subject {
     background-color: white;
@@ -142,6 +144,7 @@ header .container button {
 }
 
 .ArticleA {
+    width: 100%;
     text-align: justify;
     font-family: "Open Sans";
 }
@@ -246,32 +249,136 @@ header .container button {
 /********Right Side************************************************/
 .right-side {
    float: left;
-   width: 30%;
+   width: 25%;
    box-sizing: border-box;
+   margin: 25px 0px;
+   padding: 25px 0px;
 }
 .name {
+    width: 100%;
     background-color: black;
-    color: white;
-    display: inline;
+    margin: 0px;
+    padding: 0px;
 }
-.name .img{
-   float: right;
-    width: 150px;
-    height: 200px;
-    box-sizing: inherit;
+.name.img {
+    margin: 0px;
+    padding: 0px;
+}
+.name .span {
+    margin: 0px;
 }
 .name .p {
-    font-family: 'Oswald', sans-serif;
-    font-size: 10px;
-    font-weight: 200;
+    margin: 0px;
+}
+.pragraph {
+   font-family: 'Oswald', sans-serif;
+    font-size: 15px;
     color: white;
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
+    text-align: justify;
+    padding: 10px;
+}
+.sectionheader{
+    background-color: black;
+    color: white;
+     padding: 17px 0px;
+}
+h6{
+    padding: 5px 20px
+}
+.secbody{
+    padding: 10px 15px;
+height: auto;
+overflow: auto;
+background-color: white;
+color: black;
+}
+.secbody p{
+    padding: 5px 10px;
+}
+.secbody:hover{
+    background-color: #c1c1c1;
+}
+.secbody img{
+    float: left;
+    width: 15%;
+}
+.secbody div{
+    float: right;
+    width: 85%;
+    padding-left: 10px;
+}
+.sectionbody2{
+    text-align: center;
+    padding: 100px 0px;
+    background-color: white;
+}
+.sectionbody2 span{
+    background-color: #F1F1F1;
+    padding: 90px 120px;
+}
+.sectionbody3{
+    padding: 10px;
+    background-color: white;
+}
+.sectionbody3 span {
+    padding: 8px;
+    margin: 5px;
+    display: inline-block;
+    background-color: #F1F1F1
+}
+.sectionbody3 .firstspan{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+    main .sectionbody4
+    {
+        box-sizing: border-box;
+    }
+    main  .sectionbody4 div{
+        
+        box-sizing: border-box;
+        width: 50%;
+        padding: 10px;
+        float: left;
+    }
+
+/************clear**********/
+.clear{
+    content:" ";
+    clear: both;
+}
+
+.clear{
+    clear: both;
 }
 
 /********footer****************************************************/
-footer {
-    position: sticky;
-    bottom: 0px;
-}
+footer{
+     background-color: #616161;
+     padding: 30px;
+     font-size: 16px;
+ }
+ footer button{
+     background-color: black;
+     color: white;
+     padding: 15px 25px;
+     border: none;
+     font-size: 17px;
+ }
+ footer button:hover{
+    background-color: #c1c1c1;
+    color: black;
+ }
+ footer button i{
+     margin: 0px 10px;
+ }
+ footer p{
+     color: white;
+     font-family: 'open sans';
+     padding-top: 25px;
+ }
+ footer p a{
+     color: white;
+     font-family: 'open sans';
