@@ -120,6 +120,7 @@ header .container button {
     text-align: center;
     font-size: 18px;
 }
+/*******main*****************************************************/
 .fcontent{
     display: inline-block;
     float: left;
@@ -281,7 +282,7 @@ header .container button {
     padding-bottom: 10px;
 }
 .sectionheader{
-    padding:   0px ;
+   padding-left: 10px;
     margin: 0px;
     height: 40px;
     background-color: black;
@@ -355,6 +356,11 @@ header .container button {
     box-sizing: border-box;
     padding: 10px;
 }
+.icon2 {
+    font-size: 30px;
+    font-weight: 100;
+    padding-left: 10px;
+}
 .place3{
     width: 100%;
     background-color: white;
@@ -368,16 +374,15 @@ header .container button {
     color: rgb(255, 255, 255);
     text-align: center;
     width: 93%;
-    height: 30px;
+    height: 40px;
     margin: 10px;
     font-size: 15px;
     border: none;
 }
-/************clear**********/
+/******clear*******************************************************/
 .clear{
     clear: both;
 }
-
 /********footer****************************************************/
 footer{
      background-color: #616161;
@@ -398,11 +403,17 @@ footer{
  footer button i{
      margin: 0px 10px;
  }
+ .fposition button .top {
+   
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+}
  footer p{
-     color: white;
-     font-family: 'open sans';
-     padding-top: 25px;
- }
+    color: white;
+    font-family: 'open sans';
+    padding-top: 25px;
+}
  footer p a{
-     color: white;
-     font-family: 'open sans';
+    color: white;
+    font-family: 'open sans';
+ }
