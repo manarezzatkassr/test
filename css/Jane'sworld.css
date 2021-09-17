@@ -417,3 +417,31 @@ footer{
     color: white;
     font-family: 'open sans';
  }
+@media only screen and (max-width: 600px) {
+  .fcontent {
+    display: block;
+    margin: 20px;
+  }
+  .subject {
+    background-color: white;
+    padding: 30px;
+    margin: 10px;
+    box-sizing: inherit;
+    min-height: 920px;
+    text-align: center;
+  }
+  .left-side {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  .right-side {
+    float: left;
+    width: 100%;
+    box-sizing: inherit;
+    /* margin-right: 30px; */
+    padding: 0px;
+  }
+} 
