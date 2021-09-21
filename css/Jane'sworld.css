@@ -418,47 +418,6 @@ footer{
     font-family: 'open sans';
  }
  /*Mobile*/
- /*@media (max-width: 767px) {
-    .fcontent {
-    display: block;
-    margin: 20px;
-    }
-    .left-side {
-    float: left;
-    width: 100%;
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-    }
-    .subject {
-    background-color: white;
-    padding: 30px;
-    margin: 10px;
-    box-sizing: inherit;
-    min-height: 920px;
-    text-align: center;
-    }
-    .right-side {
-    float: left;
-    width: 100%;
-    box-sizing: inherit;
-    padding: 0px;
-    }
-    header .container button {
-    padding: 6px 12px;
-    font-size: 18px;
-    }
-    .button-left {
-    position: absolute;
-    top: 10%;
-    left: 25px;
-    }
-    header div .B-title {
-    font-size: 25px;
-    margin: 5px;
-    }
- }*/
- /*small screen*/
  @media (max-width:720px) {
     .fcontent {
         display: block;
@@ -530,45 +489,3 @@ footer{
  @media (min-width: 1200px) {
      
  }
- 
- /*
-@media (max-width:720px) {
-    .fcontent {
-    display: block;
-    margin: 20px;
-  }
-  .subject {
-    background-color: white;
-    padding: 30px;
-    margin: 10px;
-    box-sizing: inherit;
-    min-height: 920px;
-    text-align: center;
-  }
-  .left-side {
-    float: left;
-    width: 100%;
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-  }
-  .right-side {
-    float: left;
-    width: 100%;
-    box-sizing: inherit;
-    padding: 0px;
-  }
-  header .container button {
-    padding: 6px 12px;
-    font-size: 18px;
-}
-header div .B-title {
-    font-size: 25px;
-    margin: 5px;
-}
-.button-left {
-    position: absolute;
-    top: 10%;
-    left: 25px;
-}
-} 
