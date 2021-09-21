@@ -134,7 +134,7 @@ header .container button {
     margin: 10px;
     padding: 15px;
 }
-.subject {
+.subject, .subject1 {
     background-color: white;
     margin: 30px  0px;
     padding: 30px;
@@ -464,13 +464,16 @@ footer{
         display: block;
         margin: 20px;
     }
-    .subject {
+    .subject,.subject1 {
         background-color: white;
         padding: 30px;
         margin: 10px;
         box-sizing: inherit;
         min-height: 920px;
         text-align: center;
+    }
+    .subject1{
+        min-height: 960px;
     }
     .left-side {
         float: left;
